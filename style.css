@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  background: black;
+  color: rgb(69, 159, 201);
+  font-size: 3em;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: rgb(220, 205, 205);
+  font-size: 1em;
+}
+h1 {
+  font-size: 2rem;
+  letter-spacing: -2px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 3px rgb(187, 202, 119);
+}
+button {
+  position: absolute;
+
+  top: 100px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
