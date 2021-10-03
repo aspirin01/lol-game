@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lol Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <h1>Eat them all    </h1>
+    <p></p>
+
+    <h2>BOOYEAH!!!</h2>
+
+    <button id="again" onClick="history.go(0);">Play Again</button>
+
+    <canvas style="height: 90%; width: 100%"></canvas>
+    <div>
+      <button onmousedown="moveUp()" ontouchstart="moveUp()">UP</button><br>
+      <button onmousedown="moveLeft()" ontouchstart="moveLeft()">LEFT</button>
+      <button onmousedown="moveRight()" ontouchstart="moveRight()">RIGHT</button><br>
+      <button onmousedown="moveDown()" ontouchstart="moveDown()">DOWN</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
