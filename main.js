@@ -84,11 +84,12 @@ EvilCircle.prototype.checkBounds = function(){
     this.y +=(this.size);
   }
 }
+
 EvilCircle.prototype.setControls= function(){
   let _this = this;
 window.onkeydown = function(e) {
     if (e.key === 'ArrowLeft') {
-      _this.x -= _this.velX;
+      _this.x -= _this.velX; 
     } else if (e.key === 'ArrowRight') {
       _this.x += _this.velX;
     } else if (e.key === 'ArrowUp') {
@@ -98,6 +99,24 @@ window.onkeydown = function(e) {
     }
   }
 }
+
+function moveLeft() {
+ ec.x -= 20;
+}
+
+function moveRight() {
+ ec.x += 20;
+}
+
+function moveUp() {
+ ec.y -= 20;
+}
+
+function moveDown() {
+ ec.y += 20;
+}
+
+
 EvilCircle.prototype.collisonDetect = function(){
   for(let j = 0; j < balls.length; j++) {
     if(  balls[j].exists) {
@@ -213,5 +232,3 @@ for(let i = 0; i < balls.length; i++) {
 }
 
 loop();
-
-
