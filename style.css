@@ -53,8 +53,9 @@ h1 {
   color: transparent;
   text-shadow: 0 0 3px rgb(187, 202, 119);
 }
-#again {
+button {
   position: absolute;
+
   top: 100px;
   margin-left: 50%;
   transform: translate(-50%);
@@ -63,19 +64,4 @@ h1 {
   background-color: transparent;
   color: white;
   border: 2px solid white;
-}
-
-div {
-  position:absolute;
-  width:100%;
-  height:10%;
-  background:#063;
-  bottom:0px;
-  text-align: center;
-}
-
-button {
-  width: 20%;
-  height: 30%;
-  font-size: 100%;
 }
