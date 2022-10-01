@@ -99,7 +99,7 @@ window.onkeydown = function(e) {
     }
   }
 }
-
+// Codes which describe the movement of the killer on key change, as a further note, this can be hand controlled as well. Will be released soon.
 function moveLeft() {
  ec.x -= 20;
 }
@@ -232,3 +232,4 @@ for(let i = 0; i < balls.length; i++) {
 }
 
 loop();
+
