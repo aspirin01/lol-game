@@ -14,7 +14,7 @@ function random(min, max) {
 }
 
 // define Ball constructor
-
+// This is function to define the location of a ball
 // function Ball(x, y, velX, velY, color, size) {
 //   this.x = x;
 //   this.y = y;
